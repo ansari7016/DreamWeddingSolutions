@@ -1,0 +1,287 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: linear-gradient(to bottom right, #ffccff, #cc99ff);
+}
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    background: linear-gradient(to bottom, #8a2be2, #ff69b4);
+    color: white;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar .nav-link {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 10px;
+}
+.navbar-brand {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+}
+.content {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #ffccff, #cc99ff);
+}
+.upload-label {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.upload-image {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ddd;
+}
+
+.upload-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.upload-image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.upload-image:hover .overlay {
+    opacity: 1;
+}
+
+.upload-image .overlay .text {
+    font-size: 1rem;
+    text-align: center;
+}
+/*.chat-list {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.chat-list .chat-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.chat-list .chat-item:hover {
+    background-color: #f9f9f9;
+}
+
+.chat-list .chat-item .user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-list .chat-item .chat-info {
+    flex: 1;
+}
+
+.chat-list .chat-item .message-preview {
+    color: #777;
+}
+
+.chat-list .chat-item .timestamp {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.chat-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.chat-container .message {
+    margin-bottom: 15px;
+}
+
+.chat-container .message .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-container .message .message-content {
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.chat-container .message .meta {
+    font-size: 0.8rem;
+    color: #777;
+}*/
+
+.right-sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background: linear-gradient(to bottom, #8a2be2, #ff69b4);
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+
+.sidebar .nav-link svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+/*.carousel-inner {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    position: relative;
+}
+
+.carousel-item {
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;*/ /* Hide overflow for rounded corners */
+    /*border-radius: 10px;*/ /* Rounded corners for the carousel items */
+/*}
+
+.carousel-item video {
+    width: auto;
+    height: 100%;*/ /* Adjusted to fill the height of carousel item */
+    /*max-width: 100%;*/ /* Ensure video does not exceed container width */
+    /*object-fit: cover;
+    border-radius: 10px;*/ /* Rounded corners for the video */
+/*}*/
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Increase the width of the control areas to move the icons farther away */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 100%, 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-control-prev {
+    left: -5%; /* Adjust the distance from the left side */
+}
+
+.carousel-control-next {
+    right: -5%; /* Adjust the distance from the right side */
+}
+
+.icon-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px; /* Adjust width as needed */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-item:hover .icon-container {
+    opacity: 1;
+}
+
+.icon-container i {
+    color: #fff;
+    font-size: 30px; /* Increase icon size */
+    margin-bottom: 15px; /* Adjust spacing between icons */
+    cursor: pointer;
+}
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #ff69b4;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ff69b4, #8a2be2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ff69b4, #8a2be2);
+}
+.post-img {
+    width: 100%;
+    height: auto;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.post-actions svg {
+    width: 24px;
+    height: 24px;
+}
+.story-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ff4d4d; /* Instagram story border color */
+}
+
+.story-item p {
+    width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}

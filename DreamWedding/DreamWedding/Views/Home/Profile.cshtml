@@ -1,0 +1,68 @@
+﻿@using System.Security.Claims
+@{
+    ViewData["Title"] = "Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Your Profile</h1>
+
+<div class="container vh-100 flex-column justify-content-center align-items-center">
+    <div class="card p-4 shadow">
+        <form>
+            <div class="form-group text-center">
+                <label for="couplePhoto" class="upload-label">
+                    <div class="upload-image">
+                        <img id="photoPreview" src="~/img/WhatsApp Image 2024-07-01 at 12.13.23_7c5b07f7.jpg" alt="Couple Photo" class="img-thumbnail rounded-circle">
+                        <div class="overlay">
+                            <div class="text">Change Photo</div>
+                        </div>
+                    </div>
+                </label>
+                <input type="file" class="form-control-file d-none" id="couplePhoto" accept="image/*">
+            </div>
+            @if (Context.User.Identity.IsAuthenticated)
+            {
+                <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input type="text" class="form-control" value="@User.Identity.Name" readonly />
+                </div>
+
+                @if (User.Identity is ClaimsIdentity claimsIdentity)
+                {
+                    var emailClaim = claimsIdentity.FindFirst(ClaimTypes.Email);
+                    if (emailClaim != null)
+                    {
+                        <div class="form-group">
+                            <label for="Email">Email</label>
+                            <input type="email" class="form-control" value="@emailClaim.Value" readonly>
+                        </div>
+                    }
+                }
+            }
+
+            <div class="form-group">
+                <label for="Gender">Gender</label>
+                <input type="text" class="form-control" value="Male" readonly>
+            </div>
+
+            <div class="form-group">
+                <label for="Country">Country</label>
+                <input type="text" class="form-control" value="Pakistan" readonly>
+            </div>
+
+            <div class="form-group">
+                <label for="weddingDate">Wedding Date</label>
+                <input type="date" class="form-control" id="weddingDate">
+            </div>
+
+            <div class="form-group">
+                <label for="countdown">Countdown</label>
+                <input type="text" class="form-control" id="countdown" readonly>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block mt-3">Edit Profile</button>
+        </form>
+    </div>
+</div>
+
+<a asp-controller="Registrations" asp-action="LogOut">Logout</a>
+

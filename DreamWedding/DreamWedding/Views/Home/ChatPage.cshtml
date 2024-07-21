@@ -1,0 +1,59 @@
+﻿@* @model DreamWedding.Models.ShowViewModel
+@using System.Security.Claims
+
+@{
+    ViewData["Title"] = "Chat";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-chat">
+    <div class="sidebar-chat">
+        @foreach (var user in ViewBag.Users)
+        {
+            <div class="friend" onclick="openChat(@user.Id)">
+                <img src="https://via.placeholder.com/40" alt="Profile Picture">
+                <span>@user.Name</span>
+            </div>
+        }
+    </div>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <h5>Chat with @ViewData["SelectedUserId"]</h5>
+        </div>
+        <div class="chat-messages">
+            @if (Model.Chats != null && Model.Chats.Any())
+            {
+                foreach (var message in Model.Chats)
+                {
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <div class="message @(message.SenderId.ToString() == User.FindFirstValue(ClaimTypes.NameIdentifier) ? "me" : "")">
+                            <img src="https://via.placeholder.com/40" alt="Profile Picture">
+                            <div class="bubble">
+                                @message.Content
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <div>Please log in to see the messages.</div>
+                    }
+                }
+            }
+            else
+            {
+                <div>No messages yet.</div>
+            }
+        </div> 
+        <div class="input-container">
+            <form asp-action="Send" method="post">
+                <input type="hidden" name="SenderId" value="@User.FindFirstValue(ClaimTypes.NameIdentifier)">
+                <input type="hidden" name="ReceiverId" value="@ViewData["SelectedUserId"]">
+                <input type="text" name="Content" class="form-control" placeholder="Type a message">
+                <button class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+ *@

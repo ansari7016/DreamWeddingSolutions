@@ -1,0 +1,142 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using DreamWedding.Data;
+@inject IHttpContextAccessor acs;
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DreamWedding</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/DreamWedding.styles.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sidebar d-flex flex-column p-3 bg-dark text-white">
+        <a href="#" class="navbar-brand mb-3 text-white">
+            <img src="~/img/Dream Wedding Logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            Dream Wedding
+        </a>
+        <nav class="nav flex-column">
+            <a asp-controller="Home" asp-action="Index" asp-area="" class="nav-link d-flex align-items-center">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12h18m-6 6H9m-6 0h6m-6-6h6M9 6h6M3 6h6m6 6h6m-6 6h6m-6-6h6m-6-6h6"></path>
+                </svg>
+                Home
+            </a>
+            <a class="nav-link d-flex align-items-center" href="#">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5m-6-6V3m-6 6h12"></path>
+                </svg>
+                Search
+            </a>
+            <a asp-controller="Home" asp-action="Privacy" asp-area="" class="nav-link d-flex align-items-center">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.55 4.55a2 2 0 0 1 0 2.83L15 21l-5.66-5.66a2 2 0 0 1 0-2.83L15 10z"></path>
+                </svg>
+                Reels
+            </a>
+            <a asp-controller="Home" asp-action="ChatPage" asp-area="" class="nav-link d-flex align-items-center">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 3.16a4 4 0 1 0-6.09 0 4 4 0 0 0-6.09 0A4.07 4.07 0 0 0 3 6c0 2.28 2.26 5.03 9 11.14C20.74 11.03 23 8.28 23 6a4.07 4.07 0 0 0-1.91-2.84z"></path>
+                </svg>
+                Message
+            </a>
+            <a asp-controller="Home" asp-action="Profile" asp-area="" class="nav-link d-flex align-items-center">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.5 12.5a4.5 4.5 0 1 0-9 0v4h-1a2 2 0 0 0-2 2v1a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2h-1v-4zM10 9h4m-2-6v3m3.5 14.5h-7"></path>
+                </svg>
+                Profile
+            </a>
+            <div class="nav-link d-flex align-items-center dropdown">
+                <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="addPostDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.5 12.5a4.5 4.5 0 1 0-9 0v4h-1a2 2 0 0 0-2 2v1a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2h-1v-4zM10 9h4m-2-6v3m3.5 14.5h-7"></path>
+                    </svg>
+                    Add Post
+                </a>
+                <div class="dropdown-menu" aria-labelledby="addPostDropdown">
+                    <a class="dropdown-item" asp-controller="Reels" asp-action="Create" asp-route-type="reels">Reels</a>
+                    <a class="dropdown-item" asp-controller="Post" asp-action="Create" asp-route-type="stories">Stories</a>
+                    <a class="dropdown-item" asp-controller="Post" asp-action="Create" asp-route-type="post">Post</a>
+                </div>
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+                        @* @acs.HttpContext.Session.GetString("UserId") *@
+                        @*  @acs.HttpContext.Session.GetString("Email")
+                    @acs.HttpContext.Session.GetString("Name") *@
+                    </li>
+
+                    <li class="nav-item">
+                        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                            <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+                        </form>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/VendorRegister">VendorRegister</a>
+                    </li>
+                }
+            </div>
+        </nav>
+    </div>
+
+    @{
+        var action = ViewContext.RouteData.Values["action"]?.ToString();
+    }
+
+    @if (!string.IsNullOrEmpty(action) && action != "ChatPage" && action != "Privacy")
+    {
+        <div class="right-sidebar">
+            <h4>Advertisements</h4>
+            @if (Model?.Advertisements != null)
+            {
+                @foreach (var item in Model.Advertisements)
+                {
+                    <div class="ad mb-3">
+                        <a href="@item.AdsLink">
+                            <img src="~/@item.AdsImage" alt="Ad 1" class="img-fluid">
+                        </a>
+                    </div>
+                }
+            }
+        </div>
+    }
+
+    <div class="content" style="width: @(string.IsNullOrEmpty(action) || action == "ChatPage")">
+        @RenderBody()
+    </div>
+
+    @if (!string.IsNullOrEmpty(action) && action != "ChatPage" && action != "Reels")
+    {
+        <footer class="border-top footer text-muted content" style="width:@((string.IsNullOrEmpty(action) || action == "ChatPage" || action == "Privacy") ? "100%" : "67.2%")">
+            <div class="container">
+                &copy; 2024 - DreamWedding - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+    }
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

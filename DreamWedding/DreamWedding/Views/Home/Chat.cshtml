@@ -1,0 +1,150 @@
+﻿@* @model IEnumerable<DreamWedding.Models.Chats>
+@using System.Security.Claims
+
+@{
+    ViewData["Title"] = "Chat";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int selectedUserId = ViewData["SelectedUserId"] != null ? (int)ViewData["SelectedUserId"] : 0;
+    string currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+}
+
+<style>
+    .container-chat {
+        display: flex;
+        height: calc(100vh - 56px); /* Adjust based on your header/footer height */
+    }
+
+    .sidebar-chat {
+        width: 25%;
+        background-color: white;
+        border-right: 1px solid #ddd;
+        overflow-y: auto;
+    }
+
+    .chat-container {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .chat-header {
+        padding: 20px;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        align-items: center;
+    }
+
+        .chat-header img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+    .chat-messages {
+        flex-grow: 1;
+        padding: 20px;
+        overflow-y: auto;
+    }
+
+    .message {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+        .message img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .message .bubble {
+            background-color: #efefef;
+            border-radius: 20px;
+            padding: 10px 15px;
+        }
+
+        .message.me .bubble {
+            background-color: #dcf8c6;
+        }
+
+        .message.me {
+            justify-content: flex-end;
+        }
+
+            .message.me img {
+                order: 2;
+                margin-left: 15px;
+                margin-right: 0;
+            }
+
+    .input-container {
+        display: flex;
+        padding: 20px;
+        border-top: 1px solid #ddd;
+    }
+
+        .input-container input {
+            flex-grow: 1;
+            border-radius: 20px;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+        }
+
+        .input-container button {
+            margin-left: 10px;
+            border-radius: 20px;
+            padding: 10px 20px;
+        }
+</style>
+
+<div class="container-chat">
+    <div class="sidebar-chat">
+        @if (ViewBag.Users != null)
+        {
+            foreach (var user in ViewBag.Users)
+            {
+                <div class="friend" onclick="location.href='@Url.Action("Chat", "Chats", new { userId = user.Id })'">
+                    <img src="https://via.placeholder.com/40" alt="Profile Picture">
+                    <span>@user.UserName</span>
+                </div>
+            }
+        }
+    </div>
+    <div class="chat-container">
+        <div class="chat-header">
+            <img src="https://via.placeholder.com/40" alt="Profile Picture">
+            <span>Chat with @(ViewBag.SelectedUserName ?? "Friend")</span>
+        </div>
+        <div class="chat-messages">
+            @if (Model != null && Model.Any())
+            {
+                foreach (var message in Model)
+                {
+                    <div class="message @(message.SenderId.ToString() == currentUserId ? "me" : "")">
+                        <img src="https://via.placeholder.com/40" alt="Profile Picture">
+                        <div class="bubble">
+                            @message.Content
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div>No messages yet.</div>
+            }
+        </div>
+        <div class="input-container">
+            <form asp-action="Send" method="post">
+                <input type="hidden" name="SenderId" value="@currentUserId" />
+                <input type="hidden" name="ReceiverId" value="@selectedUserId" />
+                <input type="text" name="Content" class="form-control" placeholder="Type a message">
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+ *@

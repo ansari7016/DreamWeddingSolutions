@@ -1,0 +1,609 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DreamWedding.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DreamWedding.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\assets\\avatars\\face-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\avatars\\face-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\assets\\avatars\\face-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\avatars\\face-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\assets\\avatars\\face-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\avatars\\face-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\assets\\avatars\\face-4.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\avatars\\face-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\assets\\avatars\\face-5.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\avatars\\face-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\assets\\avatars\\face-6.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\avatars\\face-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\assets\\avatars\\face-7.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\avatars\\face-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\assets\\avatars\\face-8.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\avatars\\face-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\assets\\images\\qrcode.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\qrcode.svg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\assets\\products\\p1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\products\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\assets\\products\\p2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\products\\p2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\assets\\products\\p3.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\products\\p3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\assets\\products\\p4.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\products\\p4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\apexcharts.css",
+      "PackagePath": "staticwebassets\\admin\\css\\apexcharts.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\app-dark.css",
+      "PackagePath": "staticwebassets\\admin\\css\\app-dark.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\app-light.css",
+      "PackagePath": "staticwebassets\\admin\\css\\app-light.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\app-rtl.css",
+      "PackagePath": "staticwebassets\\admin\\css\\app-rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\admin\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\admin\\css\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\admin\\css\\daterangepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\dropzone.css",
+      "PackagePath": "staticwebassets\\admin\\css\\dropzone.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\admin\\css\\dropzone.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\feather.css",
+      "PackagePath": "staticwebassets\\admin\\css\\feather.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\admin\\css\\fullcalendar.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\jquery.steps.css",
+      "PackagePath": "staticwebassets\\admin\\css\\jquery.steps.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\jquery.timepicker.css",
+      "PackagePath": "staticwebassets\\admin\\css\\jquery.timepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\admin\\css\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\quill.snow.css",
+      "PackagePath": "staticwebassets\\admin\\css\\quill.snow.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\select2-bootstrap4.css",
+      "PackagePath": "staticwebassets\\admin\\css\\select2-bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\select2.css",
+      "PackagePath": "staticwebassets\\admin\\css\\select2.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\simplebar.css",
+      "PackagePath": "staticwebassets\\admin\\css\\simplebar.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\css\\uppy.min.css",
+      "PackagePath": "staticwebassets\\admin\\css\\uppy.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\data\\contacts.json",
+      "PackagePath": "staticwebassets\\admin\\data\\contacts.json"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\data\\eu.topo.json",
+      "PackagePath": "staticwebassets\\admin\\data\\eu.topo.json"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\fonts\\feather.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\feather.eot"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\fonts\\feather.svg",
+      "PackagePath": "staticwebassets\\admin\\fonts\\feather.svg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\fonts\\feather.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\feather.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\fonts\\feather.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\feather.woff"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\apexcharts.custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apexcharts.custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\apps.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apps.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\config.js",
+      "PackagePath": "staticwebassets\\admin\\js\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\d3.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\d3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\datamaps-zoomto.js",
+      "PackagePath": "staticwebassets\\admin\\js\\datamaps-zoomto.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\datamaps.all.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\datamaps.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\datamaps.custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\datamaps.custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\admin\\js\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\fullcalendar.custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\fullcalendar.custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\admin\\js\\fullcalendar.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\gauge.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\gauge.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\jquery.mask.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.mask.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\jquery.steps.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.steps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\jquery.stickOnScroll.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.stickOnScroll.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\jquery.timepicker.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.timepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\quill.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\quill.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\simplebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\tinycolor-min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\tinycolor-min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\topojson.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\topojson.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\admin\\js\\uppy.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\uppy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\images\\1843414f-03b9-459e-8ca4-d4d5505985bd_WhatsApp Image 2024-07-01 at 12.13.23_1996003e.jpg",
+      "PackagePath": "staticwebassets\\images\\1843414f-03b9-459e-8ca4-d4d5505985bd_WhatsApp Image 2024-07-01 at 12.13.23_1996003e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\images\\1a0f5665-8be4-45e0-8e71-917c8b546896_images (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\1a0f5665-8be4-45e0-8e71-917c8b546896_images (1).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\images\\451b5b0c-3ec8-40fc-829a-8aaf02d9d61d_360_F_639807553_uwUKbAadh2moLIRDQo4vzYJo1CeQLNYH.jpg",
+      "PackagePath": "staticwebassets\\images\\451b5b0c-3ec8-40fc-829a-8aaf02d9d61d_360_F_639807553_uwUKbAadh2moLIRDQo4vzYJo1CeQLNYH.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\images\\ads\\WhatsApp Image 2024-07-01 at 12.13.23_1996003e.jpg",
+      "PackagePath": "staticwebassets\\images\\ads\\WhatsApp Image 2024-07-01 at 12.13.23_1996003e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\images\\ads\\WhatsApp Image 2024-07-01 at 12.13.23_7c5b07f7.jpg",
+      "PackagePath": "staticwebassets\\images\\ads\\WhatsApp Image 2024-07-01 at 12.13.23_7c5b07f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\images\\ads\\WhatsApp Image 2024-07-03 at 00.21.04_d6b7cd16.jpg",
+      "PackagePath": "staticwebassets\\images\\ads\\WhatsApp Image 2024-07-03 at 00.21.04_d6b7cd16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\images\\ads\\images.png",
+      "PackagePath": "staticwebassets\\images\\ads\\images.png"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\img\\Dream Wedding Logo.png",
+      "PackagePath": "staticwebassets\\img\\Dream Wedding Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\img\\WhatsApp Image 2024-07-01 at 12.13.23_7c5b07f7.jpg",
+      "PackagePath": "staticwebassets\\img\\WhatsApp Image 2024-07-01 at 12.13.23_7c5b07f7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\reels\\38e4f94a-95ac-4ff8-b61e-004950d8599b_WhatsApp Video 2024-07-21 at 02.51.23_b1028a72.mp4",
+      "PackagePath": "staticwebassets\\reels\\38e4f94a-95ac-4ff8-b61e-004950d8599b_WhatsApp Video 2024-07-21 at 02.51.23_b1028a72.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\reels\\9ddce978-515b-4340-be36-1456ae90b72c_bandicam 2024-07-16 20-48-56-588.mp4",
+      "PackagePath": "staticwebassets\\reels\\9ddce978-515b-4340-be36-1456ae90b72c_bandicam 2024-07-16 20-48-56-588.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\reels\\e3c7e1ea-3058-4010-b2b3-97ec460fb489_bandicam 2024-07-16 20-48-56-588.mp4",
+      "PackagePath": "staticwebassets\\reels\\e3c7e1ea-3058-4010-b2b3-97ec460fb489_bandicam 2024-07-16 20-48-56-588.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Imran Hafeez\\Downloads\\DreamWedding\\DreamWedding\\DreamWedding\\DreamWedding\\wwwroot\\reels\\ffe4cfcf-c5c2-49d9-b46c-2bc800455e96_bandicam 2024-07-16 20-48-56-588.mp4",
+      "PackagePath": "staticwebassets\\reels\\ffe4cfcf-c5c2-49d9-b46c-2bc800455e96_bandicam 2024-07-16 20-48-56-588.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DreamWedding.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DreamWedding.props",
+      "PackagePath": "build\\DreamWedding.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DreamWedding.props",
+      "PackagePath": "buildMultiTargeting\\DreamWedding.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DreamWedding.props",
+      "PackagePath": "buildTransitive\\DreamWedding.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
