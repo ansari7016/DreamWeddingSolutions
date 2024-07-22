@@ -90,6 +90,12 @@
                     </svg>
                     Users
                 </a>
+                <a class="nav-link d-flex align-items-center" asp-controller="Advertisments" asp-action="Create" asp-area="">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.5 12.5a4.5 4.5 0 1 0-9 0v4h-1a2 2 0 0 0-2 2v1a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2h-1v-4zM10 9h4m-2-6v3m3.5 14.5h-7"></path>
+                    </svg>
+                    Advertisments
+                </a>
                 <li class="nav-item">
                     <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
                         <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>

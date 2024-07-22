@@ -90,6 +90,18 @@ namespace DreamWedding.Data
                 .WithMany(p => p.SavePosts)
                 .HasForeignKey(sp => sp.PostId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Chats>()
+               .HasOne(m => m.Sender)
+               .WithMany()
+               .HasForeignKey(m => m.SenderId)
+               .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Chats>()
+                .HasOne(m => m.Receiver)
+                .WithMany()
+                .HasForeignKey(m => m.ReceiverId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
 
         public DbSet<Post> Posts { get; set; }
@@ -100,6 +112,7 @@ namespace DreamWedding.Data
         public DbSet<ReelsComments> ReelsComments { get; set; }
         public DbSet<ReelsLikes> ReelsLikes { get; set; }
         public DbSet<SavePosts> SavePosts { get; set; }
+        public DbSet<Chats> Chats { get; set; }
 
     }
 }

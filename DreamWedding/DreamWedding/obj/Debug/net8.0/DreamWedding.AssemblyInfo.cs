@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DreamWedding")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3b38151957aff381d2ff98b4d74dc650ce3be52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71afcfbbd5f3af099664c99e122f0fbad758bc19")]
 [assembly: System.Reflection.AssemblyProductAttribute("DreamWedding")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DreamWedding")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

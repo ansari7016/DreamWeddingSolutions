@@ -1264,6 +1264,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\451b5b0c-3ec8-40fc-829a-8aaf02d9d61d_360_F_639807553_uwUKbAadh2moLIRDQo4vzYJo1CeQLNYH.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ads\360_F_639807553_uwUKbAadh2moLIRDQo4vzYJo1CeQLNYH.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>DreamWedding</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DreamWedding</BasePath>
+      <RelativePath>images/ads/360_F_639807553_uwUKbAadh2moLIRDQo4vzYJo1CeQLNYH.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ads\360_F_639807553_uwUKbAadh2moLIRDQo4vzYJo1CeQLNYH.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ads\images.png))">
       <SourceType>Package</SourceType>
       <SourceId>DreamWedding</SourceId>
@@ -2303,70 +2319,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\reels\38e4f94a-95ac-4ff8-b61e-004950d8599b_WhatsApp Video 2024-07-21 at 02.51.23_b1028a72.mp4))">
-      <SourceType>Package</SourceType>
-      <SourceId>DreamWedding</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DreamWedding</BasePath>
-      <RelativePath>reels/38e4f94a-95ac-4ff8-b61e-004950d8599b_WhatsApp Video 2024-07-21 at 02.51.23_b1028a72.mp4</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\reels\38e4f94a-95ac-4ff8-b61e-004950d8599b_WhatsApp Video 2024-07-21 at 02.51.23_b1028a72.mp4))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\reels\9ddce978-515b-4340-be36-1456ae90b72c_bandicam 2024-07-16 20-48-56-588.mp4))">
-      <SourceType>Package</SourceType>
-      <SourceId>DreamWedding</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DreamWedding</BasePath>
-      <RelativePath>reels/9ddce978-515b-4340-be36-1456ae90b72c_bandicam 2024-07-16 20-48-56-588.mp4</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\reels\9ddce978-515b-4340-be36-1456ae90b72c_bandicam 2024-07-16 20-48-56-588.mp4))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\reels\e3c7e1ea-3058-4010-b2b3-97ec460fb489_bandicam 2024-07-16 20-48-56-588.mp4))">
-      <SourceType>Package</SourceType>
-      <SourceId>DreamWedding</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DreamWedding</BasePath>
-      <RelativePath>reels/e3c7e1ea-3058-4010-b2b3-97ec460fb489_bandicam 2024-07-16 20-48-56-588.mp4</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\reels\e3c7e1ea-3058-4010-b2b3-97ec460fb489_bandicam 2024-07-16 20-48-56-588.mp4))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\reels\ffe4cfcf-c5c2-49d9-b46c-2bc800455e96_bandicam 2024-07-16 20-48-56-588.mp4))">
-      <SourceType>Package</SourceType>
-      <SourceId>DreamWedding</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/DreamWedding</BasePath>
-      <RelativePath>reels/ffe4cfcf-c5c2-49d9-b46c-2bc800455e96_bandicam 2024-07-16 20-48-56-588.mp4</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\reels\ffe4cfcf-c5c2-49d9-b46c-2bc800455e96_bandicam 2024-07-16 20-48-56-588.mp4))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

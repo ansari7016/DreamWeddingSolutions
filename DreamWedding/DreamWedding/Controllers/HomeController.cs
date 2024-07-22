@@ -205,34 +205,51 @@ namespace DreamWedding.Controllers
             return View();
         }
 
-        public async Task<IActionResult> ChatPage(int? userId)
+       /* public IActionResult ChatPage()
         {
-            //if (userId == null)
-            //{
-            //    return NotFound();
-            //}
+            ViewBag.Users = _context.Users.ToList();
+            var messages = _context.Chats
+                        .Include(c => c.Sender)
+                        .Include(c => c.Receiver)
+                        .Where(c => (c.SenderId == currentUserId && c.ReceiverId == userId) ||
+                                     (c.SenderId == userId && c.ReceiverId == currentUserId))
+                        .OrderBy(c => c.CreatedAt)
+                        .ToListAsync();
 
-            //var uperwaleID = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
-            //var user = await _userManager.GetUserAsync(User);
-            //var currentUserId = user?.Id;
-
-            //var messages = await _context.Chats
-            //            .Include(c => c.Sender)
-            //            .Include(c => c.Receiver)
-            //            .Where(c => (c.SenderId == currentUserId && c.ReceiverId == userId) ||
-            //                         (c.SenderId == userId && c.ReceiverId == currentUserId))
-            //            .OrderBy(c => c.CreatedAt)
-            //            .ToListAsync();
-
-            //if (messages == null)
-            //{
-            //    messages = new List<Chats>();
-            //}
-
-            //ViewBag.Users = await _context.Users.ToListAsync();
-            //ViewData["SelectedUserId"] = userId;
-
+            if (messages == null)
+            {
+                messages = new List<Chats>();
+            }
             return View();
+        }
+
+        [HttpPost]*/
+        public async Task<IActionResult> ChatPage()
+        {
+           
+            string Id = HttpContext.Session.GetString("id");
+            //var user = await _userManager.GetUserAsync(User);
+            /*var currentUserId = Id;*/
+
+            var messages = await _context.Chats
+                        .Include(c => c.Sender)
+                        .Include(c => c.Receiver)
+                        .Where(c => (c.SenderId == Id || c.ReceiverId == Id))
+                        .OrderBy(c => c.CreatedAt)
+                        .ToListAsync();
+
+            var showViewModel = new ShowViewModel();
+            showViewModel.Chats = messages;
+
+            /*if (messages == null)
+            {
+                messages = new List<Chats>();
+            }*/
+            ViewBag.Id = Id;
+            ViewBag.Users = await _context.Users.ToListAsync();
+            ViewData["SelectedUserId"] = Id;
+
+            return View(showViewModel);
         }
 
         /*public async Task<IActionResult> Chat(int? userId)
@@ -263,18 +280,20 @@ namespace DreamWedding.Controllers
             return View(messages);
         }*/
 
-        /*[HttpPost]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Send([Bind("SenderId,ReceiverId,Content")] Chats message)
         {
+            ModelState.Remove("Receiver");
+            ModelState.Remove("Sender");
             if (ModelState.IsValid)
             {
                 _context.Add(message);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Chat), new { userId = message.ReceiverId });
+                return RedirectToAction(nameof(ChatPage));
             }
-            return View("Chat", new { userId = message.ReceiverId });
-        }*/
+            return View("ChatPage");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
