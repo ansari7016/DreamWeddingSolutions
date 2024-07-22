@@ -1,11 +1,11 @@
 ﻿@page
 @model LoginModel
 
- @{
+@*  @{
     ViewData["Title"] = "Log in";
-}
+} *@
 
-<h1>@ViewData["Title"]</h1>
+@* <h1>@ViewData["Title"]</h1>
 <div class="row">
     <div class="col-md-4">
         <section>
@@ -76,64 +76,102 @@
             }
         </section>
     </div>
-</div> 
-@* <main class="main">
-    <div class="page-header breadcrumb-wrap">
-        <div class="container">
-            <div class="breadcrumb">
-                <a href="index.html" rel="nofollow">Home</a>
-                <span></span> Pages
-                <span></span> Login
-            </div>
-        </div>
-    </div>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 m-auto">
-                    <div class="row">
-                          <div class="col-lg-5">
-                                <div class="login_wrap widget-taber-content p-30 background-white border-radius-10 mb-md-5 mb-lg-0 mb-sm-5">
-                                    <div class="padding_eight_all bg-white">
-                                        <div class="heading_s1">
-                                            <h3 class="mb-30">Login</h3>
-                                        </div>
-                                        <form id="account" method="post">
-                                            <div class="form-group">
-                                                <label asp-for="Input.Email" class="form-label">Email</label>
-                                                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
-                                                <span asp-validation-for="Input.Email" class="text-danger"></span>
-                                            </div>
-                                            <div class="form-group">
-                                                <label asp-for="Input.Password" class="form-label">Password</label>
-                                                <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
-                                                <span asp-validation-for="Input.Password" class="text-danger"></span>
-                                            </div>
-                                            <div class="checkbox mb-3">
-                                                <label asp-for="Input.RememberMe" class="form-label">
-                                                    <input class="form-check-input" asp-for="Input.RememberMe" />
-                                                    @Html.DisplayNameFor(m => m.Input.RememberMe)
-                                                </label>
-                                            </div>
-                                            <div class="form-group">
-                                                <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
-                                            </div>
-                                            <div class="form-group">
-                                                <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
-                                            </div>
-                                            <div class="form-group">
-                                                <button id="login-submit" type="submit" class="btn btn-fill-out btn-block hover-up">Log in</button>
-                                            </div>
-                                        </form>
+</div>  *@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WeddingManagment.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="h-100 gradient-form" style="background-color: #eee;">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-xl-10">
+                    <div class="card rounded-3 text-black">
+                        <div class="row g-0">
+                            <div class="col-lg-6">
+                                <div class="card-body p-md-5 mx-md-4">
+
+                                    <div class="text-center">
+                                        <img src="~/img/Dream Wedding Logo.png"
+                                             style="width: 185px;" alt="logo">
+                                        <h4 class="mt-1 mb-5 pb-1">We are The Dream Team</h4>
                                     </div>
+
+                                    <form id="account" method="post">
+                                        <p>Please login to your account</p>
+                                        <hr />
+                                        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                                        <div data-mdb-input-init class="form-outline mb-4">
+                                            <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                                            <label asp-for="Input.Email" class="form-label">Email</label>
+                                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                        </div>
+
+                                        <div data-mdb-input-init class="form-outline mb-4">
+                                            <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                                            <label asp-for="Input.Password" class="form-label">Password</label>
+                                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                        </div>
+
+                                        <div class="text-center pt-1 mb-5 pb-1">
+                                            <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" id="login-submit" type="submit" style="height: 35px;">
+                                                Log
+                                                in
+                                            </button>
+                                            <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
+                                        </div>
+
+                                        <div class="d-flex align-items-center justify-content-center pb-4">
+                                            <p class="mb-0 me-2">Don't have an account?</p>
+                                            <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-danger">Register as a new user</a>
+                                        </div>
+
+                                        @* <div class="d-flex align-items-center justify-content-center pb-4">
+                                            <p class="mb-0 me-2">or login with:</p>
+                                            <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary mx-2 fa-lg gradient-custom-2">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </button>
+                                            <a asp-action="GoogleLogin" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary mx-2 fa-lg gradient-custom-2">
+                                                <i class="fab fa-google"></i>
+                                            </a>
+                                            <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary mx-2 fa-lg gradient-custom-2">
+                                                <i class="fab fa-twitter"></i>
+                                            </button>
+                                        </div> *@
+
+                                    </form>
+
                                 </div>
-                          </div> 
+                            </div>
+                            <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                                <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                                    <h4 class="mb-4">We are more than just a company</h4>
+                                    <p class="small mb-0">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-</main> *@
-@section Scripts {
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>
+@* @section Scripts {
     <partial name="_ValidationScriptsPartial" />
-}
+} *@

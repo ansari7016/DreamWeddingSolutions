@@ -23,6 +23,7 @@ public class PostController : Controller
         _webHostEnvironment = webHostEnvironment;
         ca = acs;
     }
+    [Authorize(Roles = "User")]
 
     [Authorize]
     public IActionResult Create()

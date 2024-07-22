@@ -23,76 +23,106 @@
             Dream Wedding
         </a>
         <nav class="nav flex-column">
-            <a asp-controller="Home" asp-action="Index" asp-area="" class="nav-link d-flex align-items-center">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12h18m-6 6H9m-6 0h6m-6-6h6M9 6h6M3 6h6m6 6h6m-6 6h6m-6-6h6m-6-6h6"></path>
-                </svg>
-                Home
-            </a>
-            <a class="nav-link d-flex align-items-center" href="#">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5m-6-6V3m-6 6h12"></path>
-                </svg>
-                Search
-            </a>
-            <a asp-controller="Home" asp-action="Privacy" asp-area="" class="nav-link d-flex align-items-center">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.55 4.55a2 2 0 0 1 0 2.83L15 21l-5.66-5.66a2 2 0 0 1 0-2.83L15 10z"></path>
-                </svg>
-                Reels
-            </a>
-            <a asp-controller="Home" asp-action="ChatPage" asp-area="" class="nav-link d-flex align-items-center">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 3.16a4 4 0 1 0-6.09 0 4 4 0 0 0-6.09 0A4.07 4.07 0 0 0 3 6c0 2.28 2.26 5.03 9 11.14C20.74 11.03 23 8.28 23 6a4.07 4.07 0 0 0-1.91-2.84z"></path>
-                </svg>
-                Message
-            </a>
-            <a asp-controller="Home" asp-action="Profile" asp-area="" class="nav-link d-flex align-items-center">
-                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            @if (User.IsInRole("User"))
+            {
+
+                <a asp-controller="Home" asp-action="Index" asp-area="" class="nav-link d-flex align-items-center">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12h18m-6 6H9m-6 0h6m-6-6h6M9 6h6M3 6h6m6 6h6m-6 6h6m-6-6h6m-6-6h6"></path>
+                    </svg>
+                    Home
+                </a>
+                <a class="nav-link d-flex align-items-center" href="#">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5m-6-6V3m-6 6h12"></path>
+                    </svg>
+                    Search
+                </a>
+                <a asp-controller="Home" asp-action="Privacy" asp-area="" class="nav-link d-flex align-items-center">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.55 4.55a2 2 0 0 1 0 2.83L15 21l-5.66-5.66a2 2 0 0 1 0-2.83L15 10z"></path>
+                    </svg>
+                    Reels
+                </a>
+                <a asp-controller="Home" asp-action="ChatPage" asp-area="" class="nav-link d-flex align-items-center">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 3.16a4 4 0 1 0-6.09 0 4 4 0 0 0-6.09 0A4.07 4.07 0 0 0 3 6c0 2.28 2.26 5.03 9 11.14C20.74 11.03 23 8.28 23 6a4.07 4.07 0 0 0-1.91-2.84z"></path>
+                    </svg>
+                    Message
+                </a>
+                <a asp-controller="Home" asp-action="Profile" asp-area="" class="nav-link d-flex align-items-center">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.5 12.5a4.5 4.5 0 1 0-9 0v4h-1a2 2 0 0 0-2 2v1a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2h-1v-4zM10 9h4m-2-6v3m3.5 14.5h-7"></path>
                 </svg>
                 Profile
             </a>
-            <div class="nav-link d-flex align-items-center dropdown">
-                <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="addPostDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="nav-link d-flex align-items-center dropdown">
+                    <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="addPostDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.5 12.5a4.5 4.5 0 1 0-9 0v4h-1a2 2 0 0 0-2 2v1a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2h-1v-4zM10 9h4m-2-6v3m3.5 14.5h-7"></path>
+                        </svg>
+                        Add Post
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="addPostDropdown">
+                        <a class="dropdown-item" asp-controller="Reels" asp-action="Create" asp-route-type="reels">Reels</a>
+                        <a class="dropdown-item" asp-controller="Post" asp-action="Create" asp-route-type="stories">Stories</a>
+                        <a class="dropdown-item" asp-controller="Post" asp-action="Create" asp-route-type="post">Post</a>
+                    </div>
+
+                </div>
+                <li class="nav-item">
+                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+                    </form>
+                </li>
+            }
+            else if (User.IsInRole("Admin"))
+            {
+            <a class="nav-link d-flex align-items-center" asp-controller="Admin" asp-action="Posts" asp-area="">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.5 12.5a4.5 4.5 0 1 0-9 0v4h-1a2 2 0 0 0-2 2v1a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2h-1v-4zM10 9h4m-2-6v3m3.5 14.5h-7"></path>
+                </svg>
+                Post
+            </a>
+                <a class="nav-link d-flex align-items-center" asp-controller="Admin" asp-action="Users" asp-area="">
                     <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.5 12.5a4.5 4.5 0 1 0-9 0v4h-1a2 2 0 0 0-2 2v1a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2h-1v-4zM10 9h4m-2-6v3m3.5 14.5h-7"></path>
                     </svg>
-                    Add Post
+                    Users
                 </a>
-                <div class="dropdown-menu" aria-labelledby="addPostDropdown">
-                    <a class="dropdown-item" asp-controller="Reels" asp-action="Create" asp-route-type="reels">Reels</a>
-                    <a class="dropdown-item" asp-controller="Post" asp-action="Create" asp-route-type="stories">Stories</a>
-                    <a class="dropdown-item" asp-controller="Post" asp-action="Create" asp-route-type="post">Post</a>
-                </div>
-                @if (SignInManager.IsSignedIn(User))
-                {
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
-                        @* @acs.HttpContext.Session.GetString("UserId") *@
-                        @*  @acs.HttpContext.Session.GetString("Email")
-                    @acs.HttpContext.Session.GetString("Name") *@
-                    </li>
+                <li class="nav-item">
+                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+                    </form>
+                </li>
+            }
+            else
+            {
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" asp-area="Identity" asp-page="/Account/Register">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" asp-area="Identity" asp-page="/Account/Login">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" asp-area="Identity" asp-page="/Account/VendorRegister">VendorRegister</a>
+                </li>
+            }
+            @* @if (SignInManager.IsSignedIn(User))
+            {
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+                     @acs.HttpContext.Session.GetString("UserId") 
+                     @acs.HttpContext.Session.GetString("Email")
+                @acs.HttpContext.Session.GetString("Name") 
+                </li>
 
-                    <li class="nav-item">
-                        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                            <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
-                        </form>
-                    </li>
-                }
-                else
-                {
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/VendorRegister">VendorRegister</a>
-                    </li>
-                }
-            </div>
+                <li class="nav-item">
+                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+                    </form>
+                </li>
+            } *@
         </nav>
     </div>
 

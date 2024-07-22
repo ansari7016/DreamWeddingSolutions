@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using DreamWedding.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DreamWedding.Controllers
 {
@@ -13,7 +14,7 @@ namespace DreamWedding.Controllers
         {
             _context = context;
         }
-
+        [Authorize(Roles = "Admin")]
         public IActionResult Index()
         {
             return View();

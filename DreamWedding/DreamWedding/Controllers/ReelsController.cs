@@ -9,6 +9,7 @@ using DreamWedding.Data;
 using DreamWedding.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DreamWeddin.Controllers
 {
@@ -22,6 +23,7 @@ namespace DreamWeddin.Controllers
             _context = context;
             _hostEnvironment = hostEnvironment;
         }
+        [Authorize(Roles = "User")]
 
         // GET: Reels
         public async Task<IActionResult> Index()

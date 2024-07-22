@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DreamWedding.Data;
 using DreamWedding.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DreamWedding.Controllers
 {
@@ -18,6 +19,7 @@ namespace DreamWedding.Controllers
         {
             _context = context;
         }
+        [Authorize(Roles = "User")]
 
         // GET: PostsComments
         public async Task<IActionResult> Index()

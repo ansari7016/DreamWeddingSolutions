@@ -1328,6 +1328,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ads\WhatsApp Image 2024-07-03 at 00.21.04_d6b7cd16.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\edf319ac-290c-4eec-9245-68d9d4621e4b_360_F_639807553_uwUKbAadh2moLIRDQo4vzYJo1CeQLNYH.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>DreamWedding</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DreamWedding</BasePath>
+      <RelativePath>images/edf319ac-290c-4eec-9245-68d9d4621e4b_360_F_639807553_uwUKbAadh2moLIRDQo4vzYJo1CeQLNYH.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\edf319ac-290c-4eec-9245-68d9d4621e4b_360_F_639807553_uwUKbAadh2moLIRDQo4vzYJo1CeQLNYH.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\Dream Wedding Logo.png))">
       <SourceType>Package</SourceType>
       <SourceId>DreamWedding</SourceId>

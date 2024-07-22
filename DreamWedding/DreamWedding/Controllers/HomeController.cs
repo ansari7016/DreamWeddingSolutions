@@ -1,5 +1,6 @@
 using DreamWedding.Data;
 using DreamWedding.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -24,6 +25,7 @@ namespace DreamWedding.Controllers
             ca = acs;
             _context = context;
         }
+        [Authorize(Roles = "User")]
 
         public IActionResult Login()
         {
