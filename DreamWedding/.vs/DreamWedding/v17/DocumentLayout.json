@@ -1,37 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\",
+  "WorkspaceRootPath": "C:\\Users\\adnan\\Documents\\GitHub\\DreamWeddingSolutions\\DreamWedding\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|c:\\users\\imran hafeez\\source\\repos\\dreamweddingsolutions\\dreamwedding\\dreamwedding\\models\\showviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|solutionrelative:dreamwedding\\models\\showviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|c:\\users\\adnan\\documents\\github\\dreamweddingsolutions\\dreamwedding\\dreamwedding\\areas\\identity\\pages\\account\\vendorregister.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|solutionrelative:dreamwedding\\areas\\identity\\pages\\account\\vendorregister.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|c:\\users\\imran hafeez\\source\\repos\\dreamweddingsolutions\\dreamwedding\\dreamwedding\\views\\home\\chatpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|solutionrelative:dreamwedding\\views\\home\\chatpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|c:\\users\\adnan\\documents\\github\\dreamweddingsolutions\\dreamwedding\\dreamwedding\\areas\\identity\\pages\\account\\vendorregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|solutionrelative:dreamwedding\\areas\\identity\\pages\\account\\vendorregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|c:\\users\\imran hafeez\\source\\repos\\dreamweddingsolutions\\dreamwedding\\dreamwedding\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|solutionrelative:dreamwedding\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|c:\\users\\adnan\\documents\\github\\dreamweddingsolutions\\dreamwedding\\dreamwedding\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|solutionrelative:dreamwedding\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|c:\\users\\imran hafeez\\source\\repos\\dreamweddingsolutions\\dreamwedding\\dreamwedding\\models\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|solutionrelative:dreamwedding\\models\\chats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|c:\\users\\adnan\\documents\\github\\dreamweddingsolutions\\dreamwedding\\dreamwedding\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|solutionrelative:dreamwedding\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|c:\\users\\imran hafeez\\source\\repos\\dreamweddingsolutions\\dreamwedding\\dreamwedding\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|solutionrelative:dreamwedding\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|c:\\users\\imran hafeez\\source\\repos\\dreamweddingsolutions\\dreamwedding\\dreamwedding\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|solutionrelative:dreamwedding\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|c:\\users\\imran hafeez\\source\\repos\\dreamweddingsolutions\\dreamwedding\\dreamwedding\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|solutionrelative:dreamwedding\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|c:\\users\\imran hafeez\\source\\repos\\dreamweddingsolutions\\dreamwedding\\dreamwedding\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|c:\\users\\adnan\\documents\\github\\dreamweddingsolutions\\dreamwedding\\dreamwedding\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C48B0516-68D5-44D7-98E6-8F2C4751F752}|DreamWedding\\DreamWedding.csproj|solutionrelative:dreamwedding\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -42,111 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ShowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Models\\ShowViewModel.cs",
-              "RelativeDocumentMoniker": "DreamWedding\\Models\\ShowViewModel.cs",
-              "ToolTip": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Models\\ShowViewModel.cs",
-              "RelativeToolTip": "DreamWedding\\Models\\ShowViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABJAAAA",
+              "DocumentIndex": 2,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\adnan\\Documents\\GitHub\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "DreamWedding\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\adnan\\Documents\\GitHub\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "DreamWedding\\Data\\ApplicationUser.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T18:24:40.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChatPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Views\\Home\\ChatPage.cshtml",
-              "RelativeDocumentMoniker": "DreamWedding\\Views\\Home\\ChatPage.cshtml",
-              "ToolTip": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Views\\Home\\ChatPage.cshtml",
-              "RelativeToolTip": "DreamWedding\\Views\\Home\\ChatPage.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACwAAABbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T18:24:16.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "DreamWedding\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "DreamWedding\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAQwGgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T18:14:57.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Post.cs",
-              "DocumentMoniker": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Models\\Post.cs",
-              "RelativeDocumentMoniker": "DreamWedding\\Models\\Post.cs",
-              "ToolTip": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Models\\Post.cs",
-              "RelativeToolTip": "DreamWedding\\Models\\Post.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T17:55:03.08Z",
+              "WhenOpened": "2024-07-22T20:35:35.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Chats.cs",
-              "DocumentMoniker": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Models\\Chats.cs",
-              "RelativeDocumentMoniker": "DreamWedding\\Models\\Chats.cs",
-              "ToolTip": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Models\\Chats.cs",
-              "RelativeToolTip": "DreamWedding\\Models\\Chats.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T17:40:34.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "DreamWedding\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "DreamWedding\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAoBAAAAAAAAAAAxwCABAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T17:38:06.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "DreamWedding\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "DreamWedding\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAJMAAAAAAAAAAAAAALwAAABfAAAA",
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\adnan\\Documents\\GitHub\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "DreamWedding\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\adnan\\Documents\\GitHub\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "DreamWedding\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T17:32:14.408Z",
+              "WhenOpened": "2024-07-22T20:28:35.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "VendorRegister.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\adnan\\Documents\\GitHub\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Areas\\Identity\\Pages\\Account\\VendorRegister.cshtml.cs",
+              "RelativeDocumentMoniker": "DreamWedding\\Areas\\Identity\\Pages\\Account\\VendorRegister.cshtml.cs",
+              "ToolTip": "C:\\Users\\adnan\\Documents\\GitHub\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Areas\\Identity\\Pages\\Account\\VendorRegister.cshtml.cs",
+              "RelativeToolTip": "DreamWedding\\Areas\\Identity\\Pages\\Account\\VendorRegister.cshtml.cs",
+              "ViewState": "AQIAALoAAAAAAAAAAAAMwMoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T20:12:41.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VendorRegister.cshtml",
+              "DocumentMoniker": "C:\\Users\\adnan\\Documents\\GitHub\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Areas\\Identity\\Pages\\Account\\VendorRegister.cshtml",
+              "RelativeDocumentMoniker": "DreamWedding\\Areas\\Identity\\Pages\\Account\\VendorRegister.cshtml",
+              "ToolTip": "C:\\Users\\adnan\\Documents\\GitHub\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Areas\\Identity\\Pages\\Account\\VendorRegister.cshtml",
+              "RelativeToolTip": "DreamWedding\\Areas\\Identity\\Pages\\Account\\VendorRegister.cshtml",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAwIMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T20:01:04.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\adnan\\Documents\\GitHub\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DreamWedding\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\adnan\\Documents\\GitHub\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "DreamWedding\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAEcAAAAAAAAAAAAAAGAAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T17:17:40.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T17:17:40.098Z"
             }
           ]
         }

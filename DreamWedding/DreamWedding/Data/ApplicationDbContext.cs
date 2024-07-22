@@ -114,5 +114,6 @@ namespace DreamWedding.Data
         public DbSet<SavePosts> SavePosts { get; set; }
         public DbSet<Chats> Chats { get; set; }
 
+
     }
 }

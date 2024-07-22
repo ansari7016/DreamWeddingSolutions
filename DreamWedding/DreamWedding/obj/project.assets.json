@@ -8529,19 +8529,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Imran Hafeez\\.nuget\\packages\\": {}
+    "C:\\Users\\adnan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\DreamWedding.csproj",
+      "projectUniqueName": "C:\\Users\\adnan\\Documents\\GitHub\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\DreamWedding.csproj",
       "projectName": "DreamWedding",
-      "projectPath": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\DreamWedding.csproj",
-      "packagesPath": "C:\\Users\\Imran Hafeez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\obj\\",
+      "projectPath": "C:\\Users\\adnan\\Documents\\GitHub\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\DreamWedding.csproj",
+      "packagesPath": "C:\\Users\\adnan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adnan\\Documents\\GitHub\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Imran Hafeez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adnan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8633,16 +8633,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Imran Hafeez\\source\\repos\\DreamWeddingSolutions\\DreamWedding\\DreamWedding\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
